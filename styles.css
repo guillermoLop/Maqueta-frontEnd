@@ -1,18 +1,58 @@
 * {
     margin: 0px auto;
     padding: 0px auto;
-    background: aquamarine;
-    font-size: 12px
+    text-decoration: none;
 }
 
 header {
-    background: red;
+    background-image: url("banner.jpg");
+    display: block;
+    padding: 1px;
+    background-color: rgb(202, 57, 57);
+    margin: 0px;
+    margin-top: 1px;
+    border: 1px solid grey;
+    height: 450px;
+}
+
+#icon {
+    display: block;
+    width: 24px;
+    height: 97px;
+    margin-left: 0px;
+    float: left;
+}
+
+#banner {
+    width: 1050px;
 }
 
 h3 {
     color:rgb(192, 117, 18);
 }
 
-.avatar {
-    height: 280px;
+#fb {
+    float: right;
+    width: 50px;
+    height: 40px; 
+    margin: 0 auto;
+}
+
+
+
+#avatar {
+    display: block;
+    float: left;
+    margin-top: 150px;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.botones {
+    margin-top: 4;
+    display: inline;
+    float: right;
+}
+
+header p {
 }
