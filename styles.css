@@ -28,13 +28,13 @@ header {
 }
 
 h3 {
-    color:rgb(192, 117, 18);
+    color: rgb(192, 117, 18);
 }
 
 #fb {
     float: right;
     width: 50px;
-    height: 40px; 
+    height: 40px;
     margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@ h3 {
 #avatar {
     display: block;
     float: left;
-    margin-top: 150px;
+    margin-top: 273px;
     padding-left: 0px;
     text-align: left;
 }
@@ -54,5 +54,20 @@ h3 {
     float: right;
 }
 
-header p {
+body {
+    background-color: rgb(97, 124, 46);
+}
+
+body p {
+    display: block;
+    margin-top: 395px;
+    color: yellow;
+}
+
+body article p {
+    margin-top: 8px;
+}
+
+#info {
+    
 }
