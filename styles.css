@@ -1,14 +1,17 @@
+/*Selector Universal*/
+
 * {
     margin: 0px auto;
     padding: 0px auto;
     text-decoration: none;
 }
 
+
 header {
-    background-image: url("banner.jpg");
+    background-image: url("banner.jpg"); /*Comando Background-Image para que quede detrás
+    de los elementos que yo prefería pasen al frente*/
     display: block;
     padding: 1px;
-    background-color: rgb(202, 57, 57);
     margin: 0px;
     margin-top: 1px;
     border: 1px solid grey;
@@ -46,12 +49,22 @@ h3 {
     margin-top: 273px;
     padding-left: 0px;
     text-align: left;
+    
+}
+
+#avatar img {
+    border-radius: 105px;
 }
 
 .botones {
-    margin-top: 4;
-    display: inline;
+    margin: 4px;
+    padding: 4px;
     float: right;
+}
+
+.botones svg {
+    width: 35px;
+    height: auto;
 }
 
 body {
@@ -66,8 +79,4 @@ body p {
 
 body article p {
     margin-top: 8px;
-}
-
-#info {
-    
 }
