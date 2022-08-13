@@ -10,6 +10,8 @@
 header {
     background-image: url("banner.jpg"); /*Comando Background-Image para que quede detrás
     de los elementos que yo prefería pasen al frente*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: block;
     padding: 1px;
     margin: 0px;
